@@ -206,3 +206,23 @@ footer{background:var(--dark);color:#fff;padding:55px 5vw;display:grid;grid-temp
     transition:none!important;
   }
 }
+.pixel-frame {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-cat {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  image-rendering: pixelated;
+}
+.hero-cat {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  image-rendering: pixelated;
+}
