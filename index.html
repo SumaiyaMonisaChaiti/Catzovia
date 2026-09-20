@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catzovia — Pixel Cats</title>
+  <meta name="description" content="Catzovia is a pixel-powered world of unique cats. 2,222 cats are coming soon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a href="#home" class="logo"><span class="logo-cat">🐱</span> CATZOVIA</a>
+  <nav class="nav-links">
+    <a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About</a><a href="#community">Community</a><a href="#submit">Submit</a>
+  </nav>
+  <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="x-button">𝕏</a>
+  <button class="menu-button" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <div class="pixel-badge"><span></span> PIXEL CAT UNIVERSE</div>
+    <h1>WELCOME TO<br><span>CATZOVIA</span></h1>
+    <p class="hero-text">A tiny pixel world filled with mysterious cats, strange personalities and endless possibilities.</p>
+    <div class="hero-buttons">
+      <a href="#collection" class="primary-button">EXPLORE CATS</a>
+      <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="secondary-button">FOLLOW 𝕏</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>2,222</strong><span>PIXEL CATS</span></div>
+      <div><strong>∞</strong><span>POSSIBILITIES</span></div>
+      <div><strong>SOON</strong><span>COMING</span></div>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="pixel-frame">
+      <div class="scan-line"></div>
+      <img src="hero-cat.png" alt="Catzovia pixel cat" class="hero-cat">
+      <div class="art-label"><span>CAT #0001</span><span>COMING SOON</span></div>
+    </div>
+    <div class="floating-card card-one">✦ RARE TRAITS</div>
+    <div class="floating-card card-two">🐾 PIXEL POWER</div>
+  </div>
+</section>
+
+<div class="marquee"><div class="marquee-track">
+  <span>CATZOVIA</span><span>✦</span><span>2,222 CATS</span><span>✦</span><span>PIXEL UNIVERSE</span><span>✦</span><span>COMING SOON</span><span>✦</span>
+  <span>CATZOVIA</span><span>✦</span><span>2,222 CATS</span><span>✦</span><span>PIXEL UNIVERSE</span><span>✦</span><span>COMING SOON</span><span>✦</span>
+</div></div>
+
+<section id="about" class="about section">
+  <div class="section-tag">01 / THE WORLD</div>
+  <div class="about-grid">
+    <div><h2>SMALL PIXELS.<br><span>BIG PERSONALITIES.</span></h2></div>
+    <div class="about-copy">
+      <p>Catzovia is a pixel-powered universe where every cat has its own look, personality and story.</p>
+      <p>Some cats are cool. Some are weird. Some are definitely hiding something.</p>
+      <p>The world is just getting started.</p>
+    </div>
+  </div>
+</section>
+
+<section id="collection" class="collection section">
+  <div class="collection-heading">
+    <div><div class="section-tag">02 / COLLECTION</div><h2>MEET THE<br><span>CATS.</span></h2></div>
+    <p>2,222 unique pixel cats.<br>No two personalities are exactly alike.</p>
+  </div>
+  <div class="filter-bar">
+    <button class="filter active" data-filter="all">ALL</button>
+    <button class="filter" data-filter="cool">COOL</button>
+    <button class="filter" data-filter="rare">RARE</button>
+    <button class="filter" data-filter="mystery">MYSTERY</button>
+  </div>
+  <div id="nftGrid" class="nft-grid"></div>
+  <button id="loadMore" class="load-more">LOAD MORE CATS</button>
+</section>
+
+<section class="mystery section">
+  <div class="mystery-inner">
+    <div class="mystery-copy">
+      <div class="section-tag">03 / UNKNOWN</div>
+      <h2>NOT EVERY<br><span>CAT IS REVEALED.</span></h2>
+      <p>Somewhere inside Catzovia, rare cats are waiting to be discovered.</p>
+      <div class="mystery-number"><span>?</span><span>?</span><span>?</span></div>
+    </div>
+    <div class="mystery-cat"><div class="mystery-silhouette">?</div></div>
+  </div>
+</section>
+
+<section id="submit" class="submit section">
+  <div class="submit-box">
+    <div class="section-tag">04 / EARLY ACCESS</div>
+    <h2>KEEP YOUR<br><span>SPOT.</span></h2>
+    <p>Submit your wallet address for Catzovia updates and early-access consideration.</p>
+
+    <form id="walletForm" class="wallet-form" action="https://formsubmit.co/ajax/tusharhira972@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Catzovia Wallet Submission">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+
+      <label for="wallet">Wallet address</label>
+      <input id="wallet" name="wallet_address" type="text" placeholder="0x... / wallet address" required minlength="8" autocomplete="off">
+
+      <label for="handle">X username <span>(optional)</span></label>
+      <input id="handle" name="x_username" type="text" placeholder="@username" autocomplete="off">
+
+      <button type="submit" class="primary-button">SUBMIT WALLET</button>
+      <div id="formStatus" class="form-status" role="status"></div>
+    </form>
+  </div>
+</section>
+
+<section id="community" class="community section">
+  <div class="community-box">
+    <div class="pixel-stars">✦ ✧ ✦</div>
+    <div class="section-tag">05 / COMMUNITY</div>
+    <h2>THE WORLD<br>IS <span>GETTING BIGGER.</span></h2>
+    <p>Follow Catzovia and be there when the first cats step into the world.</p>
+    <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="primary-button">JOIN ON 𝕏</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-logo">🐱 CATZOVIA</div>
+  <p>A pixel cat universe.</p>
+  <div class="footer-links"><a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About</a><a href="#submit">Submit</a><a href="https://x.com/" target="_blank" rel="noopener noreferrer">X / Twitter</a></div>
+  <div class="copyright">© <span id="year"></span> CATZOVIA</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
